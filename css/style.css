@@ -124,3 +124,105 @@
     border-radius: 100px;
     width: 70px;
 }
+.contact-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(248, 59, 59);
+    /* background-image: url("../asset/image/background.jpg"); */
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    margin-top: -60px;
+    align-items: center;
+
+}
+.contact-icon{
+    width: 30%;
+    margin-right: 10px;
+}
+.call-container{
+    display: flex;
+    text-align: left;
+    width: 37%;
+    border-right: 2px solid white;
+    align-items: center;
+}
+.small{
+    font-size: 13px;
+}
+.call-container h5{
+    font-size: 20px;
+}
+.c-paragraph{
+    margin-left: 10px;
+}
+.btnnn{
+    border-radius: 20px;
+}
+.title-des{
+    text-align: center;
+    margin-top: 80px;
+}
+.title-des h2{
+    font-size: 45px;
+}
+.title-des p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    box-shadow: 3px 5px 8px grey;
+    border-radius: 7px;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.card-title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.card h3,p{
+    padding: 0px 15px;
+}
+footer{
+    margin-top: 60px;
+    height: 70vh;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0,0,0,0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    line-height: 1.8 em;
+    font-size: 20px;
+}
+.footer-container{
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+
+}
+.first{
+    width: 250px;
+}
+.copy{
+    margin-top: 15px;
+    text-align: center;
+}
